@@ -1,11 +1,12 @@
 import './App.css'
 import React from 'react'
+import Carousel from './components/Carousel'
 
 function App() {
   return (
-    <main>
-      <h1>HEllo</h1>
-    </main>
+    <>
+      <Carousel />
+    </>
   )
 }
 
