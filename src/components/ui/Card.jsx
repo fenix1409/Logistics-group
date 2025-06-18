@@ -11,7 +11,7 @@ const Cards = () => {
         <>
             {cards.map(item => (
                 <div className='px-[28px] py-[31px] bg-[white] rounded-[10px] shadow-[#0000001A] w-[407px]' key={item.id}>
-                    <div className="flex items-center justify-between mb-[20px]">
+                    <div className="flex items-center gap-[17px] mb-[20px]">
                         <div>{item.icon}</div>
                         <h2 className='text-[24px] leading-[28px] font-semibold'>{item.title}</h2>
                     </div>
