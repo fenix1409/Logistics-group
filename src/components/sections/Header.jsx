@@ -9,7 +9,7 @@ const Header = () => {
         {id:4, title: "Contact", path: "/contact"}
     ]
     return (
-        <header className='px-[80px] flex items-center justify-between pt-[34px]'>
+        <header className='px-[50px] flex items-center justify-between pt-[34px]'>
             <Link to={'/'}>
                 <img src={Logo} alt="Logo image" width={220} height={100} />
             </Link>
