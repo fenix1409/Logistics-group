@@ -3,8 +3,8 @@ import React from 'react'
 const Numbers = () => {
     const numbers = [
         { id: 1, amount: "12+", title: "Year Services" },
-        { id: 1, amount: "+20K+", title: "Cargo Delivered" },
-        { id: 1, amount: "500", title: "Total Cargo" }
+        { id: 2, amount: "+20K+", title: "Cargo Delivered" },
+        { id: 3, amount: "500", title: "Total Cargo" }
     ]
     return (
         <>

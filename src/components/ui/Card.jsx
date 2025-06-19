@@ -4,8 +4,8 @@ import { Global, Key, Suitcase } from '../../assets/Icons'
 const Cards = () => {
     const cards = [
         { id: 1, title: "Small and Medium Businesses", icon: <Global />, paragraph: "Optimal logistics solutions for startups and companies developing their directions." },
-        { id: 1, title: "Large Corporate Clients", icon: <Suitcase />, paragraph: "Full logistics cycle, including individual routes, cargo consolidation, and international transportation." },
-        { id: 1, title: "Private Clients", icon: <Key />, paragraph: "Reliable delivery of personal and commercial goods with a quality guarantee." }
+        { id: 2, title: "Large Corporate Clients", icon: <Suitcase />, paragraph: "Full logistics cycle, including individual routes, cargo consolidation, and international transportation." },
+        { id: 3, title: "Private Clients", icon: <Key />, paragraph: "Reliable delivery of personal and commercial goods with a quality guarantee." }
     ]
     return (
         <>
