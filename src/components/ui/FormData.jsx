@@ -20,11 +20,11 @@ function FormData() {
         <div className="w-[516px]">
             <strong className="text-[25px] leading-[100%] font-medium mb-[25px] inline-block">Calculate your shipment</strong>
             <form onSubmit={handleSubmit} className="flex items-center flex-wrap gap-[15px]">
-                <input className="w-[248px] py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[2px] focus:border-[#0563AB]" name='from' placeholder='From' type="text" />
-                <input className="w-[248px] py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[2px] focus:border-[#0563AB]" name='destination' placeholder='Destination ' type="text" />
-                <input className="w-full py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[2px] focus:border-[#0563AB]" name='from' placeholder='Cargo description (weight, volume)' type="text" />
-                <input className="w-[248px] py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[2px] focus:border-[#0563AB]" name='type' placeholder='Type' type="text" />
-                <input className="w-[248px] py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[2px] focus:border-[#0563AB]" name='kg' placeholder='kg' type="number" />
+                <input className="w-[248px] py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[#0563AB]" required name='from' placeholder='From' type="text" />
+                <input className="w-[248px] py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[#0563AB]" required name='destination' placeholder='Destination ' type="text" />
+                <input className="w-full py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[#0563AB]" placeholder='Cargo description (weight, volume)' type="text" />
+                <input className="w-[248px] py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[#0563AB]" required name='type' placeholder='Type' type="text" />
+                <input className="w-[248px] py-[15px] pl-[16px] bg-white rounded-[18px] border-[#9C9C9C] border-[1px] outline-none focus:border-[#0563AB]" required name='kg' placeholder='kg' type="number" />
                 <Button title={"Calculate"} type={"submit"} />
             </form>
         </div>
